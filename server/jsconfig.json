@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+        "~/*": ["src/*"]
+      },
+      "moduleResolution": "node"
+  },
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "include": ["./src/**/*.js"]
+}
+  
